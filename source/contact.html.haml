@@ -1,0 +1,22 @@
+- @title = "Contact - Mike Heitzke - UI/Web Designer"
+
+.fixed_content
+  %h2 Let's Talk
+  .page_content
+    %form#form1.wufoo.page{:action => "https://heitzke.wufoo.com/forms/z7x3x5/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
+      .contact_left
+        %div#foli4.notranslate
+          %input#Field4.field.text.large{:maxlength => "255", :placeholder => 'Name', :name => "Field4", :onkeyup => "", :tabindex => "1", :type => "text", :value => ""}/
+        %div#foli2.notranslate
+          %span#req_2.req *
+          %input#Field2.field.text.large{:maxlength => "255", :placeholder => 'Email Address', :name => "Field2", :required => "", :spellcheck => "false", :tabindex => "2", :type => "email", :value => ""}/
+        %div#foli1.notranslate
+          %textarea#Field1.field.textarea.medium{:cols => "50",  :placeholder => 'If nothing else, just say hey', :name => "Field1", :onkeyup => "", :rows => "10", :spellcheck => "true", :tabindex => "3"}
+      .contact_right
+        .buttons
+          %input#saveForm.btTxt.submit{:name => "saveForm", :type => "submit", :value => "Send"}/
+      .hide
+        %label{:for => "comment"} Do Not Fill This Out
+        %textarea#comment{:cols => "1", :name => "comment", :rows => "1"}
+      .submit
+        %input#idstamp{:name => "idstamp", :type => "hidden", :value => "EXWGd9ry06cI1Hjn8XIADIrzN+9rfNznuzxEUtkfBmU="}/
