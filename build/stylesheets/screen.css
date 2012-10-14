@@ -28,61 +28,62 @@
       padding: 0 0 4px 0; }
     /* line 32, media/_320.scss */
     .fixed_content p {
-      color: #555;
+      color: #666;
       margin: 10px 0 23px 0;
-      line-height: 1.4em;
-      font-size: 1.1em; }
-      /* line 37, media/_320.scss */
+      line-height: 1.5em;
+      font-size: 1.1em;
+      font-weight: lighter; }
+      /* line 38, media/_320.scss */
       .fixed_content p a {
         color: #557d59; }
-    /* line 41, media/_320.scss */
+    /* line 42, media/_320.scss */
     .fixed_content span.time, .fixed_content span.tagged {
       color: #999;
       display: block;
       margin: 0 0 5px 0; }
-      /* line 45, media/_320.scss */
+      /* line 46, media/_320.scss */
       .fixed_content span.time span, .fixed_content span.tagged span {
         color: #38ACAA; }
-      /* line 48, media/_320.scss */
+      /* line 49, media/_320.scss */
       .fixed_content span.time a, .fixed_content span.tagged a {
         margin: 0 3px 0 0;
         display: inline-block;
         color: #38ACAA; }
-        /* line 52, media/_320.scss */
+        /* line 53, media/_320.scss */
         .fixed_content span.time a:hover, .fixed_content span.tagged a:hover {
           color: #1e8381; }
-    /* line 58, media/_320.scss */
+    /* line 59, media/_320.scss */
     .fixed_content .resume .skillgroup {
       display: inline-block;
       vertical-align: top;
       width: 40%; }
-      /* line 62, media/_320.scss */
+      /* line 63, media/_320.scss */
       .fixed_content .resume .skillgroup h5 {
         text-transform: uppercase;
         color: #335D37;
         margin: 0 0 5px 0; }
-    /* line 68, media/_320.scss */
+    /* line 69, media/_320.scss */
     .fixed_content .resume .job {
       margin: 0 0 20px 0; }
-    /* line 72, media/_320.scss */
+    /* line 73, media/_320.scss */
     .fixed_content .page_content {
       padding: 10px 0; }
-      /* line 76, media/_320.scss */
+      /* line 77, media/_320.scss */
       .fixed_content .page_content ul li a {
         color: #557d59; }
-      /* line 81, media/_320.scss */
+      /* line 82, media/_320.scss */
       .fixed_content .page_content .skills {
         width: 95%; }
-        /* line 83, media/_320.scss */
+        /* line 84, media/_320.scss */
         .fixed_content .page_content .skills .skillset {
           margin: 20px 0; }
-          /* line 85, media/_320.scss */
+          /* line 86, media/_320.scss */
           .fixed_content .page_content .skills .skillset h5 {
             display: inline-block;
             vertical-align: middle;
             color: #38acaa;
             width: 20%; }
-          /* line 91, media/_320.scss */
+          /* line 92, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.yellow {
             background: -moz-linear-gradient(left, #f5f473 0%, #e5e315 100%);
             background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f5f473), color-stop(100%, #e5e315));
@@ -91,7 +92,7 @@
             background: linear-gradient(left, #f5f473 0%, #e5e315 100%);
             background-color: #e5e315;
             border: 1px solid #d1cf00; }
-            /* line 99, media/_320.scss */
+            /* line 100, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar.yellow .rating {
               border: 1px solid #d1cf00;
               background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f473), color-stop(100%, #e5e315));
@@ -100,10 +101,10 @@
               background-image: -o-linear-gradient(#f5f473, #e5e315);
               background-image: linear-gradient(#f5f473, #e5e315);
               margin-right: 42%; }
-          /* line 107, media/_320.scss */
+          /* line 108, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.red.wrench .rating {
             margin-right: 2%; }
-          /* line 111, media/_320.scss */
+          /* line 112, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.red {
             background: -moz-linear-gradient(left, #f99a9a 0%, #c66161 100%);
             background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f99a9a), color-stop(100%, #c66161));
@@ -113,7 +114,7 @@
             background: linear-gradient(left, #f99a9a 0%, #c66161 100%);
             border: 1px solid #ae4242;
             background-color: #ae4242; }
-            /* line 120, media/_320.scss */
+            /* line 121, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar.red .rating {
               border: 1px solid #ae4242;
               background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f99a9a), color-stop(100%, #c66161));
@@ -122,7 +123,7 @@
               background-image: -o-linear-gradient(#f99a9a, #c66161);
               background-image: linear-gradient(#f99a9a, #c66161);
               margin-right: 16%; }
-          /* line 126, media/_320.scss */
+          /* line 127, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.green {
             background: -moz-linear-gradient(left, #80e7bf 0%, #36a57a 100%);
             background: -webkit-gradient(linear, left top, right top, color-stop(0%, #80e7bf), color-stop(100%, #36a57a));
@@ -131,7 +132,7 @@
             background: -ms-linear-gradient(left, #80e7bf 0%, #36a57a 100%);
             background: linear-gradient(left, #80e7bf 0%, #36a57a 100%);
             border: 1px solid #28936a; }
-            /* line 134, media/_320.scss */
+            /* line 135, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar.green .rating {
               border: 1px solid #279c6f;
               background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80e7bf), color-stop(100%, #36a57a));
@@ -140,10 +141,10 @@
               background-image: -o-linear-gradient(#80e7bf, #36a57a);
               background-image: linear-gradient(#80e7bf, #36a57a);
               margin-right: 32%; }
-          /* line 142, media/_320.scss */
+          /* line 143, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.orange.adoption .rating {
             margin-right: 1%; }
-          /* line 146, media/_320.scss */
+          /* line 147, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.blue {
             background: -moz-linear-gradient(left, #2774c4 0%, #18508e 100%);
             background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2774c4), color-stop(100%, #18508e));
@@ -153,7 +154,7 @@
             background: linear-gradient(left, #2774c4 0%, #18508e 100%);
             background-color: #2774c4;
             border: 1px solid #0a3669; }
-            /* line 155, media/_320.scss */
+            /* line 156, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar.blue .rating {
               background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3872b6), color-stop(100%, #155094));
               background-image: -webkit-linear-gradient(#3872b6, #155094);
@@ -163,10 +164,10 @@
               border: 1px solid #082b55;
               background-color: #0a3669;
               margin-right: 9%; }
-          /* line 163, media/_320.scss */
+          /* line 164, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.blue.cooking .rating {
             margin-right: 72%; }
-          /* line 167, media/_320.scss */
+          /* line 168, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar.orange {
             border: 1px solid #c0720c;
             background: #efb66d;
@@ -177,7 +178,7 @@
             background: -ms-linear-gradient(left, #efb66d 0%, #e58b15 100%);
             background: linear-gradient(left, #efb66d 0%, #e58b15 100%);
             border: 1px solid #c0720c; }
-            /* line 177, media/_320.scss */
+            /* line 178, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar.orange .rating {
               background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8aa43), color-stop(100%, #e58b15));
               background-image: -webkit-linear-gradient(#f8aa43, #e58b15);
@@ -187,7 +188,7 @@
               background-color: #e7952a;
               border: 1px solid #b06503;
               margin-right: 5%; }
-          /* line 185, media/_320.scss */
+          /* line 186, media/_320.scss */
           .fixed_content .page_content .skills .skillset .bar {
             display: inline-block;
             vertical-align: middle;
@@ -199,7 +200,7 @@
             border-radius: 5px;
             height: 3px;
             width: 90%; }
-            /* line 192, media/_320.scss */
+            /* line 193, media/_320.scss */
             .fixed_content .page_content .skills .skillset .bar .rating {
               float: right;
               margin-top: -7px;
@@ -210,51 +211,51 @@
               border-radius: 15px;
               height: 15px;
               width: 15px; }
-      /* line 203, media/_320.scss */
+      /* line 204, media/_320.scss */
       .fixed_content .page_content h3 {
         font-family: 'CartoGothicStd', Arial, sans-serif;
         font-size: 1.5em;
         color: #7daa81;
         margin: 0 0 15px 0; }
-      /* line 209, media/_320.scss */
+      /* line 210, media/_320.scss */
       .fixed_content .page_content h4 {
         font-family: 'CartoGothicStd', Arial, sans-serif;
         font-size: 1.1em;
         margin: 0 0 10px 0; }
-      /* line 215, media/_320.scss */
+      /* line 216, media/_320.scss */
       .fixed_content .page_content p span.position {
         font-style: italic; }
 
-  /* line 221, media/_320.scss */
+  /* line 222, media/_320.scss */
   .resume_download {
     float: right;
     margin: 25px 0 0 0; }
 
-  /* line 225, media/_320.scss */
+  /* line 226, media/_320.scss */
   .blog_post_list {
     width: 95%;
     display: inline-block;
     vertical-align: top;
     padding: 10px 0 0 0; }
-    /* line 230, media/_320.scss */
+    /* line 231, media/_320.scss */
     .blog_post_list .blog_post {
       margin: 5px 0 20px 0;
       padding: 0 0 20px 0;
       border-bottom: 1px solid #ddd; }
-      /* line 235, media/_320.scss */
+      /* line 236, media/_320.scss */
       .blog_post_list .blog_post h4 a {
-        color: #557d59;
+        color: #353A3E;
         border-bottom: 0px solid #557d59; }
-        /* line 238, media/_320.scss */
+        /* line 239, media/_320.scss */
         .blog_post_list .blog_post h4 a:hover {
           border-bottom: 1px solid #557d59; }
-      /* line 243, media/_320.scss */
+      /* line 244, media/_320.scss */
       .blog_post_list .blog_post a {
         color: #289290;
         text-decoration: none;
         border-bottom: 0px solid #289290;
         padding-bottom: 7px; }
-        /* line 248, media/_320.scss */
+        /* line 249, media/_320.scss */
         .blog_post_list .blog_post a:hover {
           border-bottom: 1px solid #289290;
           -webkit-transition: all 0.2s;
@@ -263,13 +264,13 @@
           transition: all 0.2s;
           padding-bottom: 2px; }
 
-  /* line 256, media/_320.scss */
+  /* line 257, media/_320.scss */
   .tags {
     display: inline-block;
     width: 95%;
     vertical-align: top;
     float: right; }
-    /* line 261, media/_320.scss */
+    /* line 262, media/_320.scss */
     .tags a.tag {
       float: left;
       -webkit-border-radius: 4px;
@@ -294,16 +295,16 @@
       -moz-box-shadow: 1px 1px 1px #444444;
       box-shadow: 1px 1px 1px #444444;
       margin: 2px 17px 6px 0; }
-      /* line 275, media/_320.scss */
+      /* line 276, media/_320.scss */
       .tags a.tag:focus {
         top: 1px; }
-      /* line 278, media/_320.scss */
+      /* line 279, media/_320.scss */
       .tags a.tag:hover {
         background: #138987; }
-        /* line 280, media/_320.scss */
+        /* line 281, media/_320.scss */
         .tags a.tag:hover:before {
           border-color: transparent #138987 transparent transparent; }
-      /* line 284, media/_320.scss */
+      /* line 285, media/_320.scss */
       .tags a.tag:before {
         float: left;
         position: absolute;
@@ -315,7 +316,7 @@
         border-style: solid;
         border-width: 11px 11px 10px 0;
         content: ""; }
-      /* line 296, media/_320.scss */
+      /* line 297, media/_320.scss */
       .tags a.tag:after {
         content: "";
         position: absolute;
@@ -334,35 +335,35 @@
         -moz-box-shadow: -1px -1px 2px #004977;
         box-shadow: -1px -1px 2px #004977; }
 
-  /* line 310, media/_320.scss */
+  /* line 311, media/_320.scss */
   .greeting {
     width: auto;
     display: block; }
-    /* line 313, media/_320.scss */
+    /* line 314, media/_320.scss */
     .greeting ul {
       margin: 0 0 15px 0; }
-      /* line 315, media/_320.scss */
+      /* line 316, media/_320.scss */
       .greeting ul li.first {
         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #76dfdc), color-stop(100%, #84e3e1));
         background-image: -webkit-linear-gradient(#76dfdc, #84e3e1);
         background-image: -moz-linear-gradient(#76dfdc, #84e3e1);
         background-image: -o-linear-gradient(#76dfdc, #84e3e1);
         background-image: linear-gradient(#76dfdc, #84e3e1); }
-      /* line 318, media/_320.scss */
+      /* line 319, media/_320.scss */
       .greeting ul li.second {
         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #59d6d3), color-stop(100%, #6ddcda));
         background-image: -webkit-linear-gradient(#59d6d3, #6ddcda);
         background-image: -moz-linear-gradient(#59d6d3, #6ddcda);
         background-image: -o-linear-gradient(#59d6d3, #6ddcda);
         background-image: linear-gradient(#59d6d3, #6ddcda); }
-      /* line 321, media/_320.scss */
+      /* line 322, media/_320.scss */
       .greeting ul li.third {
         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #44cfcc), color-stop(100%, #50d3d0));
         background-image: -webkit-linear-gradient(#44cfcc, #50d3d0);
         background-image: -moz-linear-gradient(#44cfcc, #50d3d0);
         background-image: -o-linear-gradient(#44cfcc, #50d3d0);
         background-image: linear-gradient(#44cfcc, #50d3d0); }
-      /* line 324, media/_320.scss */
+      /* line 325, media/_320.scss */
       .greeting ul li {
         clear: both;
         font-family: 'CartoGothicStdBook', Arial, sans-serif;
@@ -378,15 +379,15 @@
         float: left;
         font-size: 1.95em; }
 
-  /* line 342, media/_320.scss */
+  /* line 343, media/_320.scss */
   .magnet-buttons p {
     display: none; }
 
-  /* line 346, media/_320.scss */
+  /* line 347, media/_320.scss */
   .btn.full {
     display: none; }
 
-  /* line 349, media/_320.scss */
+  /* line 350, media/_320.scss */
   .btn {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -409,13 +410,13 @@
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     position: relative; }
-    /* line 366, media/_320.scss */
+    /* line 367, media/_320.scss */
     .btn:active {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
       -moz-transform: translate(0, 2px);
       -webkit-transform: translate(0, 3px); }
 
-  /* line 373, media/_320.scss */
+  /* line 374, media/_320.scss */
   .btn.green {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a7e2c3), color-stop(100%, #98d5b5));
     background-image: -webkit-linear-gradient(#a7e2c3, #98d5b5);
@@ -425,7 +426,7 @@
     background-color: #a7e2c3;
     border: 1px solid #7dbd9b;
     margin: 0 0 0 1.5%; }
-    /* line 378, media/_320.scss */
+    /* line 379, media/_320.scss */
     .btn.green:hover {
       background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #98d5b5), color-stop(100%, #98d5b5));
       background-image: -webkit-linear-gradient(#98d5b5, #98d5b5);
@@ -434,7 +435,7 @@
       background-image: linear-gradient(#98d5b5, #98d5b5);
       background-color: #9edabb; }
 
-  /* line 383, media/_320.scss */
+  /* line 384, media/_320.scss */
   .btn.blue {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #82edeb), color-stop(100%, #6bdbd9));
     background-image: -webkit-linear-gradient(#82edeb, #6bdbd9);
@@ -443,7 +444,7 @@
     background-image: linear-gradient(#82edeb, #6bdbd9);
     background-color: #7ae6e4;
     border: 1px solid #5cd3d1; }
-    /* line 387, media/_320.scss */
+    /* line 388, media/_320.scss */
     .btn.blue:hover {
       background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6bdbd9), color-stop(100%, #6bdbd9));
       background-image: -webkit-linear-gradient(#6bdbd9, #6bdbd9);
@@ -452,17 +453,17 @@
       background-image: linear-gradient(#6bdbd9, #6bdbd9);
       background-color: #6bdbd9; }
 
-  /* line 392, media/_320.scss */
+  /* line 393, media/_320.scss */
   nav {
     display: inline-block;
     vertical-align: top;
     margin: -2px 0 0 0;
     float: right; }
-    /* line 398, media/_320.scss */
+    /* line 399, media/_320.scss */
     nav ul li {
       padding: 2px 0 14px 0;
       text-align: right; }
-      /* line 401, media/_320.scss */
+      /* line 402, media/_320.scss */
       nav ul li a {
         color: #a4a4a4;
         font-size: 1.1em;
@@ -472,23 +473,23 @@
         text-shadow: 1px 1px 1px white;
         position: relative;
         letter-spacing: .02em; }
-        /* line 410, media/_320.scss */
+        /* line 411, media/_320.scss */
         nav ul li a:hover {
           color: #333;
           -moz-transition: color .5s ease;
           -webkit-transition: color .5s ease; }
-        /* line 415, media/_320.scss */
+        /* line 416, media/_320.scss */
         nav ul li a:active {
           top: 1px; }
 
-  /* line 422, media/_320.scss */
+  /* line 423, media/_320.scss */
   footer {
     background: #bfced6;
     height: 83px;
     width: 100%;
     padding: 10px 0 0 0;
     display: block; }
-    /* line 428, media/_320.scss */
+    /* line 429, media/_320.scss */
     footer p.disclaimer {
       width: 100%;
       text-align: center;
@@ -498,103 +499,103 @@
       border-top: 1px solid #b8c3c9;
       font-size: .8em;
       color: #8e9da5; }
-    /* line 438, media/_320.scss */
+    /* line 439, media/_320.scss */
     footer ul.contact {
       float: left;
       padding: 15px 0 0 0; }
-      /* line 441, media/_320.scss */
+      /* line 442, media/_320.scss */
       footer ul.contact li {
         padding: 3px 0; }
-        /* line 444, media/_320.scss */
+        /* line 445, media/_320.scss */
         footer ul.contact li a:hover {
           color: #20526e; }
-    /* line 450, media/_320.scss */
+    /* line 451, media/_320.scss */
     footer ul.icons {
       float: right;
       padding: 15px 0 0 0; }
-      /* line 453, media/_320.scss */
+      /* line 454, media/_320.scss */
       footer ul.icons li {
         display: inline; }
-        /* line 455, media/_320.scss */
+        /* line 456, media/_320.scss */
         footer ul.icons li a {
           display: inline-block;
           height: 32px;
           width: 32px;
           text-indent: -9999em;
           position: relative; }
-        /* line 462, media/_320.scss */
+        /* line 463, media/_320.scss */
         footer ul.icons li a.dribbble {
           background: url(/images/footer_dribbble.png) 0 0 no-repeat; }
-          /* line 464, media/_320.scss */
+          /* line 465, media/_320.scss */
           footer ul.icons li a.dribbble:hover {
             background-position: 0 -32px; }
-          /* line 467, media/_320.scss */
+          /* line 468, media/_320.scss */
           footer ul.icons li a.dribbble:active {
             top: 1px; }
-        /* line 471, media/_320.scss */
+        /* line 472, media/_320.scss */
         footer ul.icons li a.forrst {
           background: url(/images/footer_forrst.png) 0 0 no-repeat; }
-          /* line 473, media/_320.scss */
+          /* line 474, media/_320.scss */
           footer ul.icons li a.forrst:hover {
             background-position: 0 -32px; }
-          /* line 476, media/_320.scss */
+          /* line 477, media/_320.scss */
           footer ul.icons li a.forrst:active {
             top: 1px; }
-        /* line 480, media/_320.scss */
+        /* line 481, media/_320.scss */
         footer ul.icons li a.twitter {
           background: url(/images/footer_twitter.png) 0 0 no-repeat; }
-          /* line 482, media/_320.scss */
+          /* line 483, media/_320.scss */
           footer ul.icons li a.twitter:hover {
             background-position: 0 -32px; }
-          /* line 485, media/_320.scss */
+          /* line 486, media/_320.scss */
           footer ul.icons li a.twitter:active {
             top: 1px; }
-        /* line 489, media/_320.scss */
+        /* line 490, media/_320.scss */
         footer ul.icons li a.github {
           background: url(/images/footer_github.png) 0 0 no-repeat; }
-          /* line 491, media/_320.scss */
+          /* line 492, media/_320.scss */
           footer ul.icons li a.github:hover {
             background-position: 0 -32px; }
-          /* line 494, media/_320.scss */
+          /* line 495, media/_320.scss */
           footer ul.icons li a.github:active {
             top: 1px; }
-    /* line 501, media/_320.scss */
+    /* line 502, media/_320.scss */
     footer ul li {
       color: #73848f; }
-      /* line 503, media/_320.scss */
+      /* line 504, media/_320.scss */
       footer ul li a {
         color: #73848f; }
 
-  /* line 509, media/_320.scss */
+  /* line 510, media/_320.scss */
   span.bold {
     font-weight: bold;
     color: #335D37;
     text-transform: uppercase; }
 
-  /* line 514, media/_320.scss */
+  /* line 515, media/_320.scss */
   .clear {
     clear: both; }
 
-  /* line 517, media/_320.scss */
+  /* line 518, media/_320.scss */
   img.right {
     float: none; }
 
-  /* line 520, media/_320.scss */
+  /* line 521, media/_320.scss */
   .slider {
     height: 200px;
     background: url("orbit/loading.gif") no-repeat center center;
     overflow: hidden; }
-    /* line 524, media/_320.scss */
+    /* line 525, media/_320.scss */
     .slider img {
       float: right; }
 
-  /* line 529, media/_320.scss */
+  /* line 530, media/_320.scss */
   .work_block {
     height: auto;
     clear: right;
     width: 100%;
     margin: 10px 0 20px 0; }
-    /* line 534, media/_320.scss */
+    /* line 535, media/_320.scss */
     .work_block h2 {
       border: none;
       margin: 0 0 0 0;
@@ -608,16 +609,16 @@
       box-shadow: 1px 1px 1px #dddddd;
       z-index: 5;
       position: relative; }
-    /* line 546, media/_320.scss */
+    /* line 547, media/_320.scss */
     .work_block .work_content {
       vertical-align: top;
       display: inline-block;
       padding: 15px;
       width: 92%; }
-      /* line 551, media/_320.scss */
+      /* line 552, media/_320.scss */
       .work_block .work_content a {
         color: #578391; }
-        /* line 553, media/_320.scss */
+        /* line 554, media/_320.scss */
         .work_block .work_content a:hover {
           background: #38acaa;
           -webkit-transition: all 0.2s ease-in-out;
@@ -627,7 +628,7 @@
           color: #fff;
           padding: 5px;
           text-decoration: none; }
-    /* line 562, media/_320.scss */
+    /* line 563, media/_320.scss */
     .work_block .work_image {
       display: inline-block;
       right: 0;
@@ -637,21 +638,21 @@
       margin: 0 0 40px 0;
       z-index: 1; }
 
-  /* line 574, media/_320.scss */
+  /* line 575, media/_320.scss */
   form#form1 .contact_left {
     display: inline-block;
     width: 100%;
     vertical-align: top; }
-  /* line 579, media/_320.scss */
+  /* line 580, media/_320.scss */
   form#form1 .contact_right {
     display: inline-block;
     width: 100%;
     vertical-align: top; }
-  /* line 584, media/_320.scss */
+  /* line 585, media/_320.scss */
   form#form1 #foli4 {
     display: inline-block;
     width: 100%; }
-    /* line 587, media/_320.scss */
+    /* line 588, media/_320.scss */
     form#form1 #foli4 input {
       height: 45px;
       -webkit-border-radius: 5px;
@@ -665,11 +666,11 @@
       margin: 0 0 10px 0;
       padding: 0 0 0 5px;
       display: inline-block; }
-  /* line 598, media/_320.scss */
+  /* line 599, media/_320.scss */
   form#form1 #foli2 {
     display: inline-block;
     width: 100%; }
-    /* line 601, media/_320.scss */
+    /* line 602, media/_320.scss */
     form#form1 #foli2 input {
       height: 45px;
       -webkit-border-radius: 5px;
@@ -683,18 +684,18 @@
       margin: 0 0 10px 0;
       padding: 0 0 0 5px;
       display: inline-block; }
-  /* line 613, media/_320.scss */
+  /* line 614, media/_320.scss */
   form#form1 span#req_2 {
     display: inline-block;
     vertical-align: middle;
     color: #a20000;
     margin: 0 0 0 12px; }
-  /* line 619, media/_320.scss */
+  /* line 620, media/_320.scss */
   form#form1 .buttons {
     display: inline-block;
     vertical-align: top;
     width: 100%; }
-    /* line 623, media/_320.scss */
+    /* line 624, media/_320.scss */
     form#form1 .buttons input {
       height: 75px;
       font-family: 'CartoGothicStdBook', Arial, sans-serif;
@@ -726,13 +727,13 @@
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       position: relative; }
-      /* line 645, media/_320.scss */
+      /* line 646, media/_320.scss */
       form#form1 .buttons input:active {
         padding: 10px 21px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
         -moz-transform: translate(0, 2px);
         -webkit-transform: translate(0, 3px); }
-      /* line 652, media/_320.scss */
+      /* line 653, media/_320.scss */
       form#form1 .buttons input:hover {
         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6bdbd9), color-stop(100%, #6dbdb9));
         background-image: -webkit-linear-gradient(#6bdbd9, #6dbdb9);
@@ -740,12 +741,12 @@
         background-image: -o-linear-gradient(#6bdbd9, #6dbdb9);
         background-image: linear-gradient(#6bdbd9, #6dbdb9);
         background-color: #6bdbd9; }
-  /* line 658, media/_320.scss */
+  /* line 659, media/_320.scss */
   form#form1 #foli1 {
     display: inline-block;
     vertical-align: top;
     width: 96%; }
-    /* line 662, media/_320.scss */
+    /* line 663, media/_320.scss */
     form#form1 #foli1 textarea {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
