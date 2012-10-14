@@ -6,7 +6,6 @@
     %title= @title
     %meta{:name => "description", :content => ""}
     %meta{:name => "author", :content => ""}
-
     -# Mobile viewport optimized: j.mp/bplateviewport
     -# * disabled because I think the zoomed-in behavior on iOS sucks -- @nathos *
     %meta{:name =>"viewport", :content => "width=device-width,initial-scale=1"}
@@ -14,31 +13,9 @@
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
   %body
     #top_bar
-    %header
-      .fixed_content
-        %h1= @title
-        .logo
-          = link_to 'Mike Heitzke - UI Designer', '/'
-        %nav
-          %ul
-            %li
-              %a{:href => '/info.html'}
-                Info
-            %li
-              %a{:href => '/words.html'}
-                Words
-            %li
-              %a{:href => '/work.html'}
-                Work
-            %li.last
-              %a{:href => '/contact.html'}
-                Contact
+    = partial 'header'
     #main-content.fixed_content
       = yield
     %footer
       = partial "js_footer"
       = partial "footer"
-
-
-
-

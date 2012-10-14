@@ -31,15 +31,28 @@
   }
   p {
     color: #555;
-    margin: 10px 0 12px 0;
+    margin: 10px 0 23px 0;
     line-height: 1.4em;
     font-size: 1.1em;
     a {
       color: #557d59;
     }
   }
-  span.time {
+  span.time, span.tagged {
     color: #999;
+    display: block;
+    margin: 0 0 5px 0;
+    span {
+      color: #38ACAA;
+    }
+    a {
+      margin: 0 3px 0 0;
+      display: inline-block;
+      color: #38ACAA;
+      &:hover {
+        color: #1e8381;
+      }
+    }
   }
   .resume {
     .skillgroup {

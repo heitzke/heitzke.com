@@ -22,10 +22,24 @@
   p {
     display: inline-block;
     color: #777;
-    margin-right: 5.4%;
+    margin-right: 5.9%;
   }
   p.full {
     display: none;
+  }
+}
+.fixed_content {
+  nav {
+    margin-top: 28px;
+    ul {
+      li.last {
+        padding-right: 0;
+      }
+      li {
+        padding: 2px 18px;
+        display: inline-block;
+      }
+    }
   }
 }
 .btn {
@@ -70,6 +84,7 @@
   }
 }
 .fixed_content {
+  max-width: 100%;
   .page_content {
     .skills {
       width: 100%;
