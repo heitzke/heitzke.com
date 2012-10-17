@@ -219,6 +219,12 @@
     }
   }
 }
+.page_content.blog {
+  h3 {
+    color: #555;
+  }
+}
+
 .resume_download {
   float:right;
   margin: 25px 0 0 0;
@@ -356,7 +362,9 @@
   font-size: 1.6em;
   font-weight: lighter;
   width: auto;
-  padding: 10px 19px;
+  padding: 10px 0;
+  width: 48%;
+  text-align: center;
   margin: 10px 0;
   border: 1px solid #000;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3),
@@ -391,10 +399,10 @@
   }
 }
 nav {
-  display:inline-block;
-  vertical-align:top;
+  display: inline-block;
+  vertical-align: top;
   margin: -2px 0 0 0;
-  float:right;
+  float: right;
   ul {
     li {
       padding: 2px 0 14px 0;

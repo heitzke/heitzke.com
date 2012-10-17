@@ -19,7 +19,7 @@
     #main-content.fixed_content
       .fixed_content
         %h2= current_article.title
-        .page_content
+        .page_content.blog
           = current_article.body
           %span.time
             Posted:
@@ -27,7 +27,7 @@
               = current_article.date.strftime('%b %e %Y')
           %span.tagged
             Tags:
-            - blog.tags.each do |tag, articles|
+            - current_article.tags.each do |tag, articles|
               %a{ :href => "#{tag_path tag}", :class => 'tag'}
                 = tag
 
