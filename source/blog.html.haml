@@ -17,19 +17,18 @@
     #top_bar
     = partial 'header'
     #main-content.fixed_content
-      .fixed_content
-        %h2= current_article.title
-        .page_content.blog
-          = current_article.body
-          %span.time
-            Posted:
-            %span
-              = current_article.date.strftime('%b %e %Y')
-          %span.tagged
-            Tags:
-            - current_article.tags.each do |tag, articles|
-              %a{ :href => "#{tag_path tag}", :class => 'tag'}
-                = tag
+      %h2= current_article.title
+      .page_content.blog
+        = current_article.body
+        %span.time
+          Posted:
+          %span
+            = current_article.date.strftime('%b %e %Y')
+        %span.tagged
+          Tags:
+          - current_article.tags.each do |tag, articles|
+            %a{ :href => "#{tag_path tag}", :class => 'tag'}
+              = tag
 
         #disqus_thread
         :javascript

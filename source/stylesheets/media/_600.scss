@@ -1,16 +1,5 @@
 // 600 styles ----------------------------------------------------------------
 
-.fixed_content {
-  width:600px;
-  overflow:hidden;
-  margin: 0 auto;
-}
-
-.slider_wrap {
-  width: 600px;
-  overflow:hidden;
-  margin: 5px auto 10px auto;
-}
 .greeting {
   ul {
     li {
@@ -19,6 +8,7 @@
   }
 }
 .magnet-buttons {
+   margin: 2em 0;
   p {
     display: inline-block;
     color: #777;
