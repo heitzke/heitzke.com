@@ -210,7 +210,6 @@ q:before, q:after {
 html {
   background:#bfced6;
   body {
-    @include global-reset;
     background:url(/images/bg_texture.jpg) repeat;
     font-family: 'helvetica', 'arial', sans-serif;
   }
@@ -249,4 +248,12 @@ h1 {
 }
 img, embed, object, video {
   max-width:100%;
+}
+
+code {
+  background: #121212;
+  color: #eee;
+  padding: 10px;
+  width: 100%;
+  display: block;
 }
