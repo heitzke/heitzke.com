@@ -23,7 +23,7 @@ Set ZSH as your default shell
 
 Then you should be seeing something like this guy:
 ![Alt text](/images/zsh/zsh1.png)
-Not super impressive yet, I know. It gets better though with the next step.
+The default theme isn't great looking. Not all super impressive yet, I know. It gets better though with the next step.
 
 Vim ~/.zshrc and scroll down to plugins & theme
 ![Alt text](/images/zsh/zsh2.png)

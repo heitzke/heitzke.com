@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title>Oh-My-ZSH for designers (too)</title>
+    <meta content='' name='description' />
+    <meta content='' name='author' />
+    <meta content='width=device-width,initial-scale=1' name='viewport' />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' />
+    <link href='/stylesheets/screen.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div id='top_bar'></div>
+    <header>
+      <div class='fixed_content'>
+        <h1>Oh-My-ZSH for designers (too)</h1>
+        <div class='logo'>
+          <a href="/">Mike Heitzke - UI Designer</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/info.html">info</a></li>
+            <li><a href="/words.html">words</a></li>
+            <li><a href="/work.html">work</a></li>
+            <li class='last'><a href="/contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class='fixed_content' id='main-content'>
+      <h2>Oh-My-ZSH for designers (too)</h2>
+      <div class='page_content blog'>
+        <p>Designers, don&#8217;t fear the command line. The shell doesn&#8217;t have to be a scary &amp; ugly thing to use, it can <em>actually</em> be somewhat enjoyable (at times). It&#8217;s really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn&#8217;t about learning it any way, it&#8217;s about making it better to use.</p>
+
+<p>The default shell that ships with Linux and OSX is Bash. It looks a little something like this - <img alt='Alt text' src='/images/zsh/bash.png' /> Admittedly, my Bash profile is super plain and pretty difficult to use. I messed around with editing my .bashrc, adding aliases etc. and still just ended up disappointed. One day after bitching about my frequent git typos, I heard about something called &#8216;Oh-my-zsh&#8217; in a response to my rants. Again, some sort of great secret had eluded me.</p>
+
+<h3 id='ohmyzsh'>Oh-my-ZSH</h3>
+
+<p>So if Bash is the shell that ships on Unix computers, what the hell is Z Shell? Basically it&#8217;s an extended Bourne shell that borrows features from other shells (bash, ksh, tcsh).</p>
+
+<h3 id='installing'>Installing</h3>
+
+<p><a href='https://github.com/robbyrussell/oh-my-zsh'>Github Instructions</a></p>
+
+<p>I installed via curl: <pre><code>curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh</code></pre></p>
+
+<p>Set ZSH as your default shell <pre><code>chsh -s /bin/zsh</code></pre></p>
+
+<p>Then you should be seeing something like this guy: <img alt='Alt text' src='/images/zsh/zsh1.png' /> The default theme isn&#8217;t great looking. Not all super impressive yet, I know. It gets better though with the next step.</p>
+
+<p>Vim ~/.zshrc and scroll down to plugins &amp; theme <img alt='Alt text' src='/images/zsh/zsh2.png' /></p>
+
+<p>This is really the cool part, all of these plugins make life really easy. For example, here is a list of all the git aliases the git plugin adds: <a href='http://jasonm23.github.com/oh-my-git-aliases.html'>Git Plugin Cheatsheet</a></p>
+
+<p>There are also tons of themes that come packaged with this. <a href='https://github.com/robbyrussell/oh-my-zsh/wiki/themes'>List of Themes</a></p>
+
+<p>Personally, I&#8217;m using gnzh and it looks like this: <img alt='Alt text' src='/images/zsh/zsh3.png' /> That&#8217;s a hell of a lot better than what I was rocking before, right? Shows me current working branch, gemset and also directory path. Also note me using the alias for &#8216;git status&#8217; which is &#8216;gst&#8217;. I also just loooove having an entire extra line to type on below.</p>
+
+<p>Luckily, there IS more to it than just pretty colors.</p>
+
+<ul>
+<li>When you tab tab you get a list of possible completions that you can navigate with arrows</li>
+
+<li>ZSH shares command history among sessions</li>
+
+<li>Spell checking (big win for me)</li>
+
+<li>Little indicator shows when there are changes that haven&#8217;t been committed</li>
+</ul>
+
+<p>There&#8217;s a lot more to it than this, but that&#8217;s about the extent of my knowledge. Hell, i&#8217;m just a designer.</p>
+        <span class='time'>
+          Posted:
+          <span>
+            Nov  9 2012
+          </span>
+        </span>
+        <span class='tagged'>
+          Tags:
+          <a class='tag' href='/tags/bash.html'>
+            bash
+          </a>
+          <a class='tag' href='/tags/z-shell.html'>
+            z shell
+          </a>
+        </span>
+        <div id='disqus_thread'></div>
+        <script type='text/javascript'>
+          //<![CDATA[
+            var disqus_shortname = 'heitzke'; // required: replace example with your forum shortname
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          //]]>
+        </script>
+      </div>
+    </div>
+    <footer>
+      <script src='/js/libs/modernizr-2.0.6.min.js'></script>
+      <script src='/js/libs/respond.min.js'></script>
+      <div class='fixed_content'>
+        <ul class='contact'>
+          <li>p: 830.377.2589</li>
+          <li>
+            e:
+            <a href="mailto:mike@heitzke.com">mike@heitzke.com</a>
+          </li>
+        </ul>
+        <ul class='icons'>
+          <li>
+            <a class="twitter" target="_blank" href="http://www.twitter.com/heitzke">Twitter</a>
+          </li>
+          <li>
+            <a class="forrst" target="_blank" href="http://forrst.com/people/heitzke">Forrst</a>
+          </li>
+          <li>
+            <a class="dribbble" target="_blank" href="http://www.dribbble.com/heitzke">Dribbble</a>
+          </li>
+          <li>
+            <a class="github" target="_blank" href="http://www.github.com/heitzke">Github</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

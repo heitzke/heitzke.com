@@ -5,13 +5,63 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-10-15T00:00:00Z</updated>
+  <updated>2012-11-09T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
+    <title>Oh-My-ZSH for designers (too)</title>
+    <link rel="alternate" href="/2012/11/09/oh_my_zsh_for_designers.html"/>
+    <id>/2012/11/09/oh_my_zsh_for_designers.html</id>
+    <published>2012-11-09T00:00:00Z</published>
+    <updated>2012-11-09T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Designers, don&amp;#8217;t fear the command line. The shell doesn&amp;#8217;t have to be a scary &amp;amp; ugly thing to use, it can &lt;em&gt;actually&lt;/em&gt; be somewhat enjoyable (at times). It&amp;#8217;s really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn&amp;#8217;t about learning it any way, it&amp;#8217;s about making it better to use.&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Designers, don&amp;#8217;t fear the command line. The shell doesn&amp;#8217;t have to be a scary &amp;amp; ugly thing to use, it can &lt;em&gt;actually&lt;/em&gt; be somewhat enjoyable (at times). It&amp;#8217;s really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn&amp;#8217;t about learning it any way, it&amp;#8217;s about making it better to use.&lt;/p&gt;
+
+&lt;p&gt;The default shell that ships with Linux and OSX is Bash. It looks a little something like this - &lt;img alt='Alt text' src='/images/zsh/bash.png' /&gt; Admittedly, my Bash profile is super plain and pretty difficult to use. I messed around with editing my .bashrc, adding aliases etc. and still just ended up disappointed. One day after bitching about my frequent git typos, I heard about something called &amp;#8216;Oh-my-zsh&amp;#8217; in a response to my rants. Again, some sort of great secret had eluded me.&lt;/p&gt;
+
+&lt;h3 id='ohmyzsh'&gt;Oh-my-ZSH&lt;/h3&gt;
+
+&lt;p&gt;So if Bash is the shell that ships on Unix computers, what the hell is Z Shell? Basically it&amp;#8217;s an extended Bourne shell that borrows features from other shells (bash, ksh, tcsh).&lt;/p&gt;
+
+&lt;h3 id='installing'&gt;Installing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href='https://github.com/robbyrussell/oh-my-zsh'&gt;Github Instructions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I installed via curl: &lt;pre&gt;&lt;code&gt;curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;Set ZSH as your default shell &lt;pre&gt;&lt;code&gt;chsh -s /bin/zsh&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you should be seeing something like this guy: &lt;img alt='Alt text' src='/images/zsh/zsh1.png' /&gt; The default theme isn&amp;#8217;t great looking. Not all super impressive yet, I know. It gets better though with the next step.&lt;/p&gt;
+
+&lt;p&gt;Vim ~/.zshrc and scroll down to plugins &amp;amp; theme &lt;img alt='Alt text' src='/images/zsh/zsh2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is really the cool part, all of these plugins make life really easy. For example, here is a list of all the git aliases the git plugin adds: &lt;a href='http://jasonm23.github.com/oh-my-git-aliases.html'&gt;Git Plugin Cheatsheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are also tons of themes that come packaged with this. &lt;a href='https://github.com/robbyrussell/oh-my-zsh/wiki/themes'&gt;List of Themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Personally, I&amp;#8217;m using gnzh and it looks like this: &lt;img alt='Alt text' src='/images/zsh/zsh3.png' /&gt; That&amp;#8217;s a hell of a lot better than what I was rocking before, right? Shows me current working branch, gemset and also directory path. Also note me using the alias for &amp;#8216;git status&amp;#8217; which is &amp;#8216;gst&amp;#8217;. I also just loooove having an entire extra line to type on below.&lt;/p&gt;
+
+&lt;p&gt;Luckily, there IS more to it than just pretty colors.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When you tab tab you get a list of possible completions that you can navigate with arrows&lt;/li&gt;
+
+&lt;li&gt;ZSH shares command history among sessions&lt;/li&gt;
+
+&lt;li&gt;Spell checking (big win for me)&lt;/li&gt;
+
+&lt;li&gt;Little indicator shows when there are changes that haven&amp;#8217;t been committed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There&amp;#8217;s a lot more to it than this, but that&amp;#8217;s about the extent of my knowledge. Hell, i&amp;#8217;m just a designer.&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>Wrenching vs. Development</title>
-    <link href="/2012/10/15/mechanic_work_vs_development.html" rel="alternate"/>
+    <link rel="alternate" href="/2012/10/15/mechanic_work_vs_development.html"/>
     <id>/2012/10/15/mechanic_work_vs_development.html</id>
     <published>2012-10-15T00:00:00Z</published>
     <updated>2012-10-15T00:00:00Z</updated>
@@ -21,7 +71,7 @@
     <summary type="html">&lt;p&gt;Recently, again, I&amp;#8217;ve been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on &amp;#8216;Stealing like an Artist&amp;#8217;. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it&amp;#8217;s &lt;a href='http://www.austinkleon.com/steal/'&gt;right here&lt;/a&gt;, it&amp;#8217;s great)&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;Recently, again, I&amp;#8217;ve been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on &amp;#8216;Stealing like an Artist&amp;#8217;. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it&amp;#8217;s &lt;a href='http://www.austinkleon.com/steal/'&gt;right here&lt;/a&gt;, it&amp;#8217;s great)&lt;/p&gt;
 
-&lt;p&gt;Anyhow, it&amp;#8217;s a nice and short read, but one of the parts that really stuck out to me was about how you shouldn&amp;#8217;t give up on hobbies and outlets that don&amp;#8217;t seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit &lt;em&gt;expensive&lt;/em&gt; and &lt;em&gt;taxing&lt;/em&gt;. Naturally, there isn&amp;#8217;t a whole lot of connection between auto work and development, but it&amp;#8217;s a very rewarding release to &lt;em&gt;actually&lt;/em&gt; get out there and truly work with your hands.&lt;/p&gt;
+&lt;p&gt;Anyhow, it&amp;#8217;s a nice and short read, but one of the parts that really stuck out to me was about how you shouldn&amp;#8217;t give up on hobbies and outlets that don&amp;#8217;t seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit &lt;em&gt;expensive&lt;/em&gt; and &lt;em&gt;taxing&lt;/em&gt; hobby. Naturally, there isn&amp;#8217;t a whole lot of connection between auto work and development, but it&amp;#8217;s a very rewarding release to &lt;em&gt;actually&lt;/em&gt; get out there and truly work with your hands.&lt;/p&gt;
 
 &lt;h3 id='1_if_you_dont_have_all_the_right_tools_to_start_youre_going_to_have_a_bad_time'&gt;1. If you don&amp;#8217;t have all the right tools to start, you&amp;#8217;re going to have a bad time.&lt;/h3&gt;
 
@@ -41,11 +91,17 @@
 
 &lt;p&gt;As you&amp;#8217;re slinging html/css, indent that shit. Try to keep your div-itis in check, DRY, yada yada. Seriously just keep it as clean as possible and it&amp;#8217;ll make your life easier as you continue (hopefully) to iterate on projects.&lt;/p&gt;
 
+&lt;h3 id='4_when_stuff_breaks_minimize_variables'&gt;4. When stuff breaks, minimize variables.&lt;/h3&gt;
+
+&lt;p&gt;Things break, a lot. When something does go wrong try to stop thrashing and figure out what the actual problem is before trying to solve it. I run into this all the time with suspension noises seemingly. Most suspensions are perfectly simple, but dammit, there are always so many joints, bushings and squeaks.&lt;/p&gt;
+
+&lt;p&gt;Whenever I hear a new noise, it&amp;#8217;s always tempting to tear into the suspension and start throwing new parts at it. Never efficient or a smart thing to do. Whenever you actually can narrow it down to a specific area, try to limit the amount of changes so you can measure the difference effectively. Change a bunch of stuff at once and you&amp;#8217;ll never know what fixed the problem or actually understand what was even wrong in the first place.&lt;/p&gt;
+
 &lt;p&gt;Hobbies can &amp;amp; will improve your work if you let them.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>About the Blog</title>
-    <link href="/2012/10/14/about-the-blog.html" rel="alternate"/>
+    <link rel="alternate" href="/2012/10/14/about-the-blog.html"/>
     <id>/2012/10/14/about-the-blog.html</id>
     <published>2012-10-14T00:00:00Z</published>
     <updated>2012-10-14T00:00:00Z</updated>

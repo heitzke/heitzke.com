@@ -5,7 +5,7 @@ tags: development
 ---
 Recently, again, I've been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on 'Stealing like an Artist'. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it's [right here](http://www.austinkleon.com/steal/), it's great)
 
-Anyhow, it's a nice and short read, but one of the parts that really stuck out to me was about how you shouldn't give up on hobbies and outlets that don't seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit *expensive* and *taxing*. Naturally, there isn't a whole lot of connection between auto work and development, but it's a very rewarding release to *actually* get out there and truly work with your hands.
+Anyhow, it's a nice and short read, but one of the parts that really stuck out to me was about how you shouldn't give up on hobbies and outlets that don't seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit *expensive* and *taxing* hobby. Naturally, there isn't a whole lot of connection between auto work and development, but it's a very rewarding release to *actually* get out there and truly work with your hands.
 
 ### 1. If you don't have all the right tools to start, you're going to have a bad time.
 
@@ -24,5 +24,11 @@ Development can really suck sometimes. Two-line code changes turn into week long
 Take my word for it. Clean your tools off as you use them. All it takes is one grease covered ball-joint fork to effectively infect all of your tools and make it impossible to touch anything in the future. Being lazy for a minute is going to lead to you accidentally getting grease all over your work clothes and/or interior (ask me how I know).
 
 As you're slinging html/css, indent that shit. Try to keep your div-itis in check, DRY, yada yada. Seriously just keep it as clean as possible and it'll make your life easier as you continue (hopefully) to iterate on projects. 
+
+### 4. When stuff breaks, minimize variables.
+
+Things break, a lot. When something does go wrong try to stop thrashing and figure out what the actual problem is before trying to solve it. I run into this all the time with suspension noises seemingly. Most suspensions are perfectly simple, but dammit, there are always so many joints, bushings and squeaks. 
+
+Whenever I hear a new noise, it's always tempting to tear into the suspension and start throwing new parts at it. Never efficient or a smart thing to do. Whenever you actually can narrow it down to a specific area, try to limit the amount of changes so you can measure the difference effectively. Change a bunch of stuff at once and you'll never know what fixed the problem or actually understand what was even wrong in the first place. 
 
 Hobbies can & will improve your work if you let them. 
