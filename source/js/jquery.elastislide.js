@@ -225,7 +225,6 @@
 				};
 						
 			// suport for css transforms and css transitions
-			this.support = Modernizr.csstransitions && Modernizr.csstransforms;
 
 			// current item's index
 			this.current = this.options.start;
