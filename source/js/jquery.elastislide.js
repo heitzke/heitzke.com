@@ -197,9 +197,9 @@
 		// the minimum number of items to show. 
 		// when we resize the window, this will make sure minItems are always shown 
 		// (unless of course minItems is higher than the total number of elements)
-		minItems : 5,
+		minItems : 4,
 		// index of the current item (left most item of the carousel)
-		start : 3,
+		start : 2,
 		// click item callback
 		onClick : function( el, position, evt ) { return false; },
 		onReady : function() { return false; },
