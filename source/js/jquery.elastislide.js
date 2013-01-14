@@ -223,9 +223,7 @@
 					'msTransition' : 'MSTransitionEnd',
 					'transition' : 'transitionend'
 				};
-			
-			this.transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ];
-			
+						
 			// suport for css transforms and css transitions
 			this.support = Modernizr.csstransitions && Modernizr.csstransforms;
 
