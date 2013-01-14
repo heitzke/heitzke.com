@@ -511,7 +511,20 @@
 			}
 
 		},
+		_toggleControls : function( dir, display ) {
 
+			if( display ) {
+
+				( dir === 'next' ) ? this.$navNext.show() : this.$navPrev.show();
+
+			}
+			else {
+
+				( dir === 'next' ) ? this.$navNext.show() : this.$navPrev.show();
+
+			}
+			
+		},
 		_slide : function( dir, tvalue ) {
 
 			if( this.isSliding ) {
