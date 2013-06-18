@@ -1,15 +1,18 @@
 .fixed_content
-  %ul.contact
-    %li p: 830.377.2589
-    %li
-      e:
-      = link_to 'mike@heitzke.com', 'mailto:mike@heitzke.com'
   %ul.icons
     %li
-      = link_to 'Twitter', 'http://www.twitter.com/heitzke', :class => 'twitter', :target => '_blank'
+      = link_to 'mailto:mike@heitzke.com', :class => 'icon-email' do
+        %span mike@heitzke.com
     %li
-      = link_to 'Forrst', 'http://forrst.com/people/heitzke', :class => 'forrst', :target => '_blank'
+      = link_to 'http://www.twitter.com/heitzke', :class => 'icon-twitter', :target => '_blank' do
+        %span Twitter
     %li
-      = link_to 'Dribbble', 'http://www.dribbble.com/heitzke', :class => 'dribbble', :target => '_blank'
+      = link_to 'http://www.dribbble.com/heitzke', :class => 'icon-dribbble', :target => '_blank' do
+        %span Dribbble
     %li
-      = link_to 'Github', 'http://www.github.com/heitzke', :class => 'github', :target => '_blank'
+      = link_to 'http://www.github.com/heitzke', :class => 'icon-github', :target => '_blank' do
+        %span Github
+    %li
+      = link_to 'http://www.linkedin.com/pub/mike-heitzke/11/38b/15', :class => 'icon-linked-in', :target => '_blank' do
+        %span.visually-hidden LinkedIn
+

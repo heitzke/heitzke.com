@@ -356,6 +356,12 @@ footer {
     font-size: .8em;
     color: #8e9da5;
   }
+  a {
+    color:#73848f;
+    &:hover {
+      color: #444;
+    }
+  }
   ul.contact {
     float:left;
     padding:15px 0 0 0;
@@ -372,57 +378,21 @@ footer {
     float:right;
     padding: 15px 0 0 0;
     li {
-      display:inline;
+      display:inline-block;
       a {
         display: inline-block;
-        height: 32px;
-        width: 32px;
-        text-indent:-9999em;
-        position: relative;
-      }
-      a.dribbble {
-        background:url(/images/footer_dribbble.png) 0 0 no-repeat;
+        text-decoration: none;
+        font-size: 2.5em;
         &:hover {
-          background-position: 0 -32px;
-        }
-        &:active {
-         top: 1px;
-        }
-      }
-      a.forrst {
-        background:url(/images/footer_forrst.png) 0 0 no-repeat;
-        &:hover {
-          background-position: 0 -32px;
-        }
-        &:active {
-         top: 1px;
+          color: #20526E;
+          @include transition(color .2s ease-in);
+          @include text-shadow(1px 1px 1px #ddd);
         }
       }
-      a.twitter {
-        background:url(/images/footer_twitter.png) 0 0 no-repeat;
-        &:hover {
-          background-position: 0 -32px;
-        }
-        &:active {
-         top: 1px;
-        }
-      }
-      a.github {
-        background:url(/images/footer_github.png) 0 0 no-repeat;
-        &:hover {
-          background-position: 0 -32px;
-        }
-        &:active {
-         top: 1px;
-        }
-      }
-    }
-  }
-  ul {
-    li {
-      color:#73848f;
-      a {
-        color:#73848f;
+      span {
+        text-indent: -9999em;
+        position: absolute;
+        display: block;
       }
     }
   }
