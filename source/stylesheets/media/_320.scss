@@ -1,11 +1,10 @@
 // 320 styles ----------------------------------------------------------------
 
-.fixed_content {
+.fixed-content {
   max-width: 95%;
   padding-left: 10px;
   overflow:hidden;
   h2 {
-    font-family: 'CartoGothicStd', Arial, sans-serif; 
     font-size: 1.8em;
     color:#38acaa;
     @include text-shadow(1px 1px 1px #fff);
@@ -106,14 +105,12 @@
       }
     }
     h3 {
-      font-family: 'CartoGothicStd', Arial, sans-serif; 
       font-size: 1.5em;
       color: #7daa81;
       margin: 20px 0 25px 0;
       font-weight: lighter;
     }
     h4 {
-      font-family: 'CartoGothicStd', Arial, sans-serif; 
       font-size: 1.1em;
       margin: 0 0 10px 0;
     }
@@ -165,9 +162,7 @@
     }
   }
 }
-#main-content.fixed_content {
-  padding-left: 10px;
-}
+
 .tags {
   display: inline-block;
   width: 95%;
@@ -240,7 +235,6 @@
     }
     li {
       clear:both;
-      font-family: 'CartoGothicStdBook', Arial, sans-serif; 
       letter-spacing: auto;
       color:#fff;
       text-transform: uppercase;
@@ -261,87 +255,38 @@
     display: none;
   }
 }
-.btn.full {
-  display:none;
-}
-.btn {
-  @include border-radius(3px);
-  color:#575757;
-  text-transform: uppercase;
-  text-decoration:none;
-  display: inline-block;
-  font-size: 1.6em;
-  font-weight: lighter;
-  width: auto;
-  padding: 10px 0;
-  width: 48%;
-  text-align: center;
-  margin: 10px 0;
-  border: 1px solid #000;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.3),
-  inset 0 1px 0 0 rgba(255,255,255,0.5), 
-  inset 0 -3px 0 0 rgba(0,0,0,0.2);
-  @include transition(all .2s ease-in-out);
-  position: relative;
-  &:active {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.3),
-    inset 0 1px 0 0 rgba(255,255,255,0.5);
-    -moz-transform: translate(0, 2px);
-    -webkit-transform: translate(0, 3px);
-  }
-}
-.btn.green {
-  @include background-image(linear-gradient(#a7e2c3, #98d5b5));
-  background-color: #a7e2c3;
-  border:1px solid #7dbd9b;
-  margin: 0 0 0 1.5%;
-  &:hover {
-    @include background-image(linear-gradient(#98d5b5, #98d5b5));
-    background-color:#9edabb;
-  }
-}
-.btn.blue {
-  @include background-image(linear-gradient(#82edeb, #6bdbd9));
-  background-color:#7ae6e4;
-  border:1px solid #5cd3d1;
-  &:hover {
-    @include background-image(linear-gradient(#6bdbd9, #6bdbd9));
-    background-color:#6bdbd9;
-  }
-}
+
 nav {
   display: inline-block;
   vertical-align: top;
   margin: -2px 0 0 0;
   float: right;
-  ul {
-    li {
-      padding: 2px 0 20px 0;
-      text-align:right;
-      list-style: none;
-      a {
-        color:#a4a4a4;
-        font-size: 1.1em;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: 'CartoGothicStdBook', Arial, sans-serif; 
-        @include text-shadow(1px 1px 1px #fff);
-        position: relative;
-        letter-spacing: .02em;
-        &:hover {
-          color:#333;
-          -moz-transition: color .5s ease;
-          -webkit-transition: color .5s ease;
-        }
-        &:active {
-          top: 1px;
-        }
+  li {
+    padding: 2px 0 20px 0;
+    text-align:right;
+    list-style: none;
+    a {
+      color: #A9AFB8;
+      font-size: 1.1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include text-shadow(1px 1px 1px #fff);
+      position: relative;
+      font-weight: 300;
+      letter-spacing: .02em;
+      &:hover {
+        color:#333;
+        -moz-transition: color .5s ease;
+        -webkit-transition: color .5s ease;
+      }
+      &:active {
+        top: 1px;
       }
     }
   }
 }
 footer {
-  background: #bfced6;
+  background: #646C74;
   height:83px;
   width:100%;
   padding: 10px 0 0 0;
@@ -357,7 +302,7 @@ footer {
     color: #8e9da5;
   }
   a {
-    color:#73848f;
+    color: #4B535E;
     &:hover {
       color: #444;
     }
@@ -384,9 +329,8 @@ footer {
         text-decoration: none;
         font-size: 2.5em;
         &:hover {
-          color: #20526E;
+          color: #3B414D;
           @include transition(color .2s ease-in);
-          @include text-shadow(1px 1px 1px #ddd);
         }
       }
       span {
@@ -412,14 +356,6 @@ img.right {
   max-width: 100%;
   margin-left: 10px;
   height: 250px;
-}
-.slider { 
-  height: 200px;
-  background: url('orbit/loading.gif') no-repeat center center;
-  overflow: hidden;
-  img {
-    float:right;
-  } 
 }
 
 .work_block {
@@ -518,7 +454,6 @@ form#form1 {
   width: 100%;
   input {
     height: 75px;
-    font-family: 'CartoGothicStdBook', Arial, sans-serif; 
     font-size: 2em;
     @include border-radius(5px);
     @include background-image(linear-gradient(#82edeb, #6bdbd9));

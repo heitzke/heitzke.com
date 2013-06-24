@@ -1,11 +1,9 @@
-%header
-  .fixed_content
-    %h1= @title
-    .logo
-      = link_to 'Mike Heitzke - UI Designer', '/'
-    %nav{:role => 'navigation'}
-      %ul
-        %li= link_to 'info', '/info.html'
-        %li= link_to 'words', '/words.html'
-        %li= link_to 'work', '/work.html'
-        %li.last= link_to 'contact', '/contact.html'
+%header.fixed-content
+  .logo
+    = link_to 'Mike Heitzke - UI Designer', '/'
+  %nav{:role => 'navigation'}
+    %ul
+      %li= link_to 'about', '/info.html'
+      %li= link_to 'words', '/words.html'
+      %li= link_to 'work', '/work.html'
+      %li.last= link_to 'contact', '/contact.html'

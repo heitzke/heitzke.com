@@ -7,16 +7,16 @@
     %meta{:name => "description", :content => "Mike Heitzke, Birmingham based UI, UX, Interface designer"}
     %meta{:name => "author", :content => "Mike Heitzke"}
     %meta{:name =>"viewport", :content => "width=device-width,initial-scale=1"}
-    %link{:href => 'http://fonts.googleapis.com/css?family=Ubuntu:300', :rel=> 'stylesheet'}
+    %link{:href => 'http://fonts.googleapis.com/css?family=Open+Sans:300,400', :rel=> 'stylesheet', :type => 'text/css'}
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
   %body
     #top_bar
     = partial 'header'
-    #main-content.fixed_content{:role => 'main'}
+    #main.fixed-content{:role => 'main'}
       = yield
-    %footer{:role => 'contentinfo'}
-      = partial "js_footer"
-      = partial "footer"
+    = partial "footer"
+    = partial "js_footer"
+
   :javascript
     window._gaq = [['_setAccount','UA-11264440-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({

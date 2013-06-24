@@ -1,6 +1,6 @@
 // 992 styles ----------------------------------------------------------------
 
-.fixed_content {
+.fixed-content {
   width:965px;
   overflow:hidden;
   margin: 0 auto;
@@ -13,7 +13,7 @@
         display: inline;
         padding: 2px 30px;
         a {
-          font-size: 1.2em;
+          font-size: 1.1em;
         }
       }
     }
@@ -80,13 +80,11 @@ form#form1 {
       margin: 0 0 10px 0;
       padding: 0 0 0 5px;
       display: inline-block;
-      
     }
   }
   #foli2 {
     display: inline-block;
     width: 46%;
-    
     input {
       height: 45px;
       @include border-radius(5px);
@@ -96,7 +94,6 @@ form#form1 {
       margin: 0 0 10px 0;
       padding: 0 0 0 5px;
       display: inline-block;
-      
     }
   }
   span#req_2 {
@@ -111,7 +108,6 @@ form#form1 {
   width: 100%;
   input {
     height: 143px;
-    font-family: 'CartoGothicStdBook', Arial, sans-serif; 
     font-size: 2em;
     @include border-radius(5px);
     @include background-image(linear-gradient(#82edeb, #6bdbd9));
@@ -157,25 +153,6 @@ form#form1 {
       font-family: sans-serif;
       height: 72px;
       margin: 0 0 20px 0;
-    }
-  }
-}
-.fixed_content {
-  .page_content {
-    .skills {
-      width: 80%;
-      .skillset {
-        margin: 20px 0;
-        h5 {
-          display: inline-block;
-          vertical-align: middle;
-          color: #38acaa;
-          width: 12%;
-        }
-        .bar {
-          width: 56%;
-        }
-      }
     }
   }
 }

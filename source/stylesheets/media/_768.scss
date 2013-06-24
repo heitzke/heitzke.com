@@ -1,6 +1,6 @@
 // 768 styles ----------------------------------------------------------------
 
-.fixed_content {
+.fixed-content {
   width: 95%;
   overflow: hidden;
   margin: 0 auto;
@@ -31,9 +31,8 @@
     display: none;
   }
 }
-.fixed_content {
+.fixed-content {
   nav {
-    margin-top: 28px;
     ul {
       li.last {
         padding-right: 0;
@@ -59,66 +58,5 @@
   .work_image {
     width: 54%;
     margin: -51px 0 40px 0;
-  }
-}
-.fixed_content {
-  .page_content {
-    padding: 10px 0;
-    .skills {
-      width: 70%;
-      .skillset {
-        margin: 20px 0;
-        h5 {
-          display: inline-block;
-          vertical-align: middle;
-          color: #38acaa;
-          width: 12%;
-        }
-        .bar {
-          width: 50%;
-        }
-      }
-    }
-  }
-}
-.slide {
-  .slide-content {
-    display: inline-block;
-    vertical-align: top;
-    padding: 15px;
-    width: 50%;
-    h2 {
-      font-size: 2em;
-      color: #578391;
-      @include text-shadow(1px 1px 1px #fff);
-      float: left;
-      position: inline-block;
-      z-index: 9999;
-    }
-    p {
-      line-height: 1.3em;
-      margin: 15px 0;
-      width: 75%;
-      color: #444;
-      display: block;
-      float: left;
-      position: relative;
-    }
-    a {
-      color: #578391;
-      &:hover {
-        background: #38acaa;
-        @include transition(all .2s ease-in-out);
-        color: #fff;
-        padding: 5px;
-        text-decoration: none;
-      }
-    }
-  }
-  .slide-image {
-    display: inline-block;
-    vertical-align: top;
-    right: 0;
-    position: absolute;
   }
 }
