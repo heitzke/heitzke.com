@@ -1,10 +1,7 @@
-//
-// Main Stylesheet
-//
-
 @import compass/reset
 @import compass/css3
 @import globals
+
 //@import responsive
 
 a img
@@ -35,18 +32,19 @@ blockquote, q
 
 blockquote:before, blockquote:after,
 q:before, q:after
-  content: ''
+  content: ""
   content: none
 
 @font-face
-  font-family: 'icomoon'
-  src: url('fonts/icomoon.eot')
-  src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype')
+  font-family: "icomoon"
+  src: url("fonts/icomoon.eot")
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype")
   font-weight: normal
   font-style: normal
 
+
 .icon-play, .icon-arrow-right, .icon-asterisk, .icon-menu, .icon-mobile, .icon-dribbble, .icon-github, .icon-phone, .icon-email, .icon-linked-in, .icon-twitter
-  font-family: 'icomoon'
+  font-family: "icomoon"
   speak: none
   font-style: normal
   font-weight: normal
@@ -88,11 +86,10 @@ q:before, q:after
 .icon-twitter:before
   content: "\f611"
 
-
 html
-  background: #656c74 url('../images/pattern.svg') repeat
+  background: #656c74 url("../images/pattern.svg") repeat
   body
-    font-family: 'Open Sans', 'helvetica', 'arial', sans-serif
+    font-family: "Open Sans", "helvetica", "arial", sans-serif
 
 h1
   color: #00ff9e
@@ -101,7 +98,7 @@ h1
   font-weight: 700
 
 h2
-  color: #eee
+  color: #eeeeee
   text-transform: uppercase
   font-weight: 100
 
@@ -116,7 +113,7 @@ img, embed, object, video
 
 code
   background: #121212
-  color: #eee
+  color: #eeeeee
   padding: 10px
   width: 100%
   display: block
@@ -133,5 +130,6 @@ code
 
 .pull-right
   float: right
+
 .pull-left
   float: left

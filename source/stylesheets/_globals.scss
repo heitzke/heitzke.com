@@ -1,0 +1,43 @@
+// Variables and global styles
+// example usage: 
+//
+// h3 {
+//  font-size: 2em;
+//  @include breakpoint(small) {
+//  font-size: 1.2em;
+//  }
+// }
+
+@mixin breakpoint($point) {
+  @if $point == largest {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == larger {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == large {
+    @media (max-width: 968px)  { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 768px)  { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 660px)  { @content; }
+  }
+  @else if $point == smaller {
+    @media (max-width: 480px)  { @content; }
+  }
+  @else if $point == smallest {
+    @media (max-width: 400px)  { @content; }
+  }
+  @else {
+    @media (max-width: $point) { @content; }
+  }
+}
+
+@mixin active-bounce() {
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
