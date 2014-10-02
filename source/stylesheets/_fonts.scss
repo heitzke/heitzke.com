@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-play, .icon-arrow-right, .icon-asterisk, .icon-menu, .icon-mobile, .icon-dribbble, .icon-github, .icon-phone, .icon-email, .icon-linked-in, .icon-twitter {
+  font-family: "icomoon";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-play:before {
+  content: "\e005";
+}
+
+.icon-arrow-right:before {
+  content: "\e000";
+}
+
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+.icon-dribbble:before {
+  content: "\f660";
+}
+
+.icon-github:before {
+  content: "\f671";
+}
+
+.icon-phone:before {
+  content: "\1f4de";
+}
+
+.icon-email:before {
+  content: "\2709";
+}
+
+.icon-linked-in:before {
+  content: "\f612";
+}
+
+.icon-twitter:before {
+  content: "\f611";
+}

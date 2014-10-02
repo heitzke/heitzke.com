@@ -1,135 +1,83 @@
-@import compass/reset
-@import compass/css3
-@import globals
+@import "compass/reset";
+@import "compass/css3";
+@import "globals";
 
-//@import responsive
-
-a img
+a img {
   border: none
+}
 
-ins
-  text-decoration: none
+html {
+  background: #656c74 url("../images/pattern.svg") repeat;
+}
 
-del
-  text-decoration: line-through
+body {
+  font-family: "Open Sans", "helvetica", "arial", sans-serif;
+}
 
-\:focus
-  -moz-outline: 0
-  outline: 0
-  outline-offset: 0
+main {
+  width: 100%; 
+  text-align: center;
+  padding: 125px 0 85px 0;
+}
 
-/* tables still need 'cellspacing="0"' in the markup
-table
-  border-collapse: collapse
-  border-spacing: 0
+h1 {
+  color: #00ff9e;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  font-weight: 700;
+}
 
-caption, th, td
-  text-align: left
-  font-weight: normal
+h2 {
+  color: #eee;
+  text-transform: uppercase;
+  font-weight: 100;
+}
 
-blockquote, q
-  quotes: none
+img, embed, object, video {
+  max-width: 100%;
+}
 
-blockquote:before, blockquote:after,
-q:before, q:after
-  content: ""
-  content: none
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+  
+code {
+  background: #121212;
+  color: #eee;
+  padding: 10px;
+  width: 100%;
+  display: block;
+}
 
-@font-face
-  font-family: "icomoon"
-  src: url("fonts/icomoon.eot")
-  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype")
-  font-weight: normal
-  font-style: normal
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
 
+footer {
+  width: 100%;
+  &::before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 130px;
+    background: #eee;
+  }
+}
 
-.icon-play, .icon-arrow-right, .icon-asterisk, .icon-menu, .icon-mobile, .icon-dribbble, .icon-github, .icon-phone, .icon-email, .icon-linked-in, .icon-twitter
-  font-family: "icomoon"
-  speak: none
-  font-style: normal
-  font-weight: normal
-  font-variant: normal
-  text-transform: none
-  line-height: 1
-  -webkit-font-smoothing: antialiased
-
-.icon-play:before
-  content: "\e005"
-
-.icon-arrow-right:before
-  content: "\e000"
-
-.icon-asterisk:before
-  content: "\f069"
-
-.icon-menu:before
-  content: "\e001"
-
-.icon-mobile:before
-  content: "\e006"
-
-.icon-dribbble:before
-  content: "\f660"
-
-.icon-github:before
-  content: "\f671"
-
-.icon-phone:before
-  content: "\1f4de"
-
-.icon-email:before
-  content: "\2709"
-
-.icon-linked-in:before
-  content: "\f612"
-
-.icon-twitter:before
-  content: "\f611"
-
-html
-  background: #656c74 url("../images/pattern.svg") repeat
-  body
-    font-family: "Open Sans", "helvetica", "arial", sans-serif
-
-h1
-  color: #00ff9e
-  text-transform: uppercase
-  font-size: 1.7em
-  font-weight: 700
-
-h2
-  color: #eeeeee
-  text-transform: uppercase
-  font-weight: 100
-
-.italic
-  font-style: italic
-
-.hide
-  display: none
-
-img, embed, object, video
-  max-width: 100%
-
-code
-  background: #121212
-  color: #eeeeee
-  padding: 10px
-  width: 100%
-  display: block
-
-.visually-hidden
-  position: absolute
-  overflow: hidden
-  clip: rect(0 0 0 0)
-  height: 1px
-  width: 1px
-  margin: -1px
-  padding: 0
-  border: 0
-
-.pull-right
-  float: right
-
-.pull-left
-  float: left
+//Social list shit
+.icons  {
+  margin-top: 20px;
+  text-align: center;
+  li {
+    display: inline-block;
+  }
+}
