@@ -43,7 +43,7 @@ body {
 main {
   width: 100%; 
   text-align: center;
-  padding: 125px 0 85px 0;
+  padding: 10% 0 85px 0;
 }
 
 .main-callout, .portrait {
@@ -110,6 +110,7 @@ code {
 
 footer {
   width: 100%;
+  margin-bottom: 50px;
   &::before {
     content: '';
     display: block;
