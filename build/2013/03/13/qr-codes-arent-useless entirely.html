@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>About the Blog</title>
+    <title>QR codes aren't useless, entirely</title>
     <meta content='' name='description'>
     <meta content='' name='author'>
     <meta content='width=device-width,initial-scale=1' name='viewport'>
@@ -14,42 +14,38 @@
     <div id='top_bar'></div>
     
     <div class='fixed_content' id='main-content'>
-      <h2>About the Blog</h2>
+      <h2>QR codes aren't useless, entirely</h2>
       <div class='page_content blog'>
-        <p>Well, seems that I've finally decided to add a little blog to the site. Noting that the current time is indeed 1:48 a.m. on a Saturday night (nerd alert, anyone?) the 'example article' that ships with the Middleman-blog setup isn't really cutting it. </p>
+        <p>Funny how a different perspective can really change how you view something as trivial as QR codes. QR codes generally have become a pointless tech that we all like to poke fun at, and is best reserved for bullshit local advertisements. <a href="http://www.wtfqrcodes.com">WTFQRcodes</a> is a perfect example. This is what we've all gotten accustomed to. Today I went for a visit to the Alabama Institute for the Deaf &amp; Blind, and was introduced to Voiceye.</p>
         
-        <p>That being said I figured i'd write about the tech used to build &amp; launch the little site. The framework is Middleman 3.0 with the associated middleman-blog extension. It's simply wonderful. It ships with compass &amp; haml already rocking on it which makes me immensely happy. If you haven't working with either before, do yourself a huge favor and just do it. I primarily work in rails environments these days, so if you don't, you're screwed or something (maybe?).</p>
+        <h3 id="voiceye">Voiceye</h3>
+        <p><img src="/images/voiceye.png" class="right qr" />
+        As you can see right here, Voiceye is simply a super high density QR code that can contain up to 250k characters. Naturally, these codes require a specific reader and are more sensitive to glare and lighting conditions, but have so much potential for accessibility. While we're busy using QR codes for tricking people into visiting lemonparty (don't google this, trust me) the Koreans are using Voiceye to improve the accessibility of their gov't docs. </p>
         
-        <p>Anyways, Middleman is wonderful for generating static sites while still allowing you to use the dev tools that you're used to utilizing. It's super flexible and allows you to pretty much do whatever you want. </p>
+        <p>According to the AIDB, Korea has been using Voiceye codes on the top right of their government documents, which allows for full docs to be downloaded and then read aloud or through Braille readers. There are several applications available for the reading of Voiceye codes; <a href="https://itunes.apple.com/us/app/voiceye/id496389982?mt=8">iPhone download</a>, <a href="https://itunes.apple.com/us/app/voiceye/id496389982?mt=8">iPhone download</a></p>
         
-        <p>The site is currently on a free heroku server (Thanks Heroku, I love you and I promise I'll pay soon). Heroku is another fantastic tool to try out and use. Basically, jump on heroku.com, make a login and once you're in your local project folder, enter your credentials - 'heroku login', create a unique heroku project 'heroku create', and then BAM 'git push heroku master' and your code is now 'live'. I use the term live loosely, as it'll be deployed to 'blazing-dragon-flower-face-9872' or something similar. </p>
+        <h3 id="moving-forward">Moving Forward</h3>
+        <p>Although sitting back, talking a bunch of shit and being sarcastic is fun, let's continue to look forward a bit and make the web (and the world) a friendlier and more accessible place. In their present form, QR codes aren't good for much. They can't share a ton of information, hard to get most devices to even access them, but conceptually it's a fantastic idea. </p>
         
-        <p>As you can see at the bottom of the blog post, I dropped in Disqus for comments (also insanely easy to integrate). </p>
+        <p>Also, granted, this is probably more focused for print type material, the concept has potential. Downloading site content for use offline, storing directions… just a few off of the top of my head. </p>
+        
+        <p>Basically, we're doing it wrong. </p>
         <span class='time'>
           Posted:
           <span>
-            Oct 14 2012
+            Mar 13 2013
           </span>
         </span>
         <span class='tagged'>
           Tags:
-          <a class='tag' href='/tags/rails.html'>
-            rails
+          <a class='tag' href='/tags/accessibility.html'>
+            accessibility
           </a>
-          <a class='tag' href='/tags/compass.html'>
-            compass
+          <a class='tag' href='/tags/voiceye.html'>
+            voiceye
           </a>
-          <a class='tag' href='/tags/middleman.html'>
-            middleman
-          </a>
-          <a class='tag' href='/tags/haml.html'>
-            haml
-          </a>
-          <a class='tag' href='/tags/scss.html'>
-            scss
-          </a>
-          <a class='tag' href='/tags/heroku.html'>
-            heroku
+          <a class='tag' href='/tags/qr-codes.html'>
+            qr codes
           </a>
         </span>
         <div id='disqus_thread'></div>

@@ -4,11 +4,56 @@
   <subtitle>Blog subtitle</subtitle>
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
-  <link rel="self" href="http://blog.url.com/feed.xml"/>
-  <updated>2012-11-09T00:00:00Z</updated>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-06-16T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>The Internet is a good place to be terrible at stuff</title>
+    <link rel="alternate" href="/2013/06/16/internet-good-for-sucking-at-things.html"/>
+    <id>/2013/06/16/internet-good-for-sucking-at-things.html</id>
+    <published>2013-06-16T00:00:00Z</published>
+    <updated>2013-06-16T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html"></summary>
+    <content type="html">&lt;p&gt;I should probably rephrase. The internet is a great place to be terrible at things if you're willing to listen when needed
+and to work at it. The sum of human knowledge is at our fingertips, on our smartphones, waiting for us on our tablets (even on our fridges, yeah, wtf). &lt;/p&gt;
+
+&lt;p&gt;The amount of learning you can possibly do in a day is overwhelming at times. &lt;/p&gt;
+
+&lt;h3 id="voiceye"&gt;Voiceye&lt;/h3&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>QR codes aren't useless, entirely</title>
+    <link rel="alternate" href="/2013/03/13/qr-codes-arent-useless entirely.html"/>
+    <id>/2013/03/13/qr-codes-arent-useless entirely.html</id>
+    <published>2013-03-13T00:00:00Z</published>
+    <updated>2013-03-13T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Funny how a different perspective can really change how you view something as trivial as QR codes. QR codes generally have become a pointless tech that we all like to poke fun at, and is best reserved for bullshit local advertisements. &lt;a href="http://www.wtfqrcodes.com"&gt;WTFQRcodes&lt;/a&gt; is...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Funny how a different perspective can really change how you view something as trivial as QR codes. QR codes generally have become a pointless tech that we all like to poke fun at, and is best reserved for bullshit local advertisements. &lt;a href="http://www.wtfqrcodes.com"&gt;WTFQRcodes&lt;/a&gt; is a perfect example. This is what we've all gotten accustomed to. Today I went for a visit to the Alabama Institute for the Deaf &amp;amp; Blind, and was introduced to Voiceye.&lt;/p&gt;
+
+&lt;h3 id="voiceye"&gt;Voiceye&lt;/h3&gt;
+&lt;p&gt;&lt;img src="/images/voiceye.png" class="right qr" /&gt;
+As you can see right here, Voiceye is simply a super high density QR code that can contain up to 250k characters. Naturally, these codes require a specific reader and are more sensitive to glare and lighting conditions, but have so much potential for accessibility. While we're busy using QR codes for tricking people into visiting lemonparty (don't google this, trust me) the Koreans are using Voiceye to improve the accessibility of their gov't docs. &lt;/p&gt;
+
+&lt;p&gt;According to the AIDB, Korea has been using Voiceye codes on the top right of their government documents, which allows for full docs to be downloaded and then read aloud or through Braille readers. There are several applications available for the reading of Voiceye codes; &lt;a href="https://itunes.apple.com/us/app/voiceye/id496389982?mt=8"&gt;iPhone download&lt;/a&gt;, &lt;a href="https://itunes.apple.com/us/app/voiceye/id496389982?mt=8"&gt;iPhone download&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="moving-forward"&gt;Moving Forward&lt;/h3&gt;
+&lt;p&gt;Although sitting back, talking a bunch of shit and being sarcastic is fun, let's continue to look forward a bit and make the web (and the world) a friendlier and more accessible place. In their present form, QR codes aren't good for much. They can't share a ton of information, hard to get most devices to even access them, but conceptually it's a fantastic idea. &lt;/p&gt;
+
+&lt;p&gt;Also, granted, this is probably more focused for print type material, the concept has potential. Downloading site content for use offline, storing directions… just a few off of the top of my head. &lt;/p&gt;
+
+&lt;p&gt;Basically, we're doing it wrong. &lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Oh-My-ZSH for designers (too)</title>
     <link rel="alternate" href="/2012/11/09/oh_my_zsh_for_designers.html"/>
@@ -18,46 +63,50 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Designers, don&amp;#8217;t fear the command line. The shell doesn&amp;#8217;t have to be a scary &amp;amp; ugly thing to use, it can &lt;em&gt;actually&lt;/em&gt; be somewhat enjoyable (at times). It&amp;#8217;s really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn&amp;#8217;t about learning it any way, it&amp;#8217;s about making it better to use.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Designers, don&amp;#8217;t fear the command line. The shell doesn&amp;#8217;t have to be a scary &amp;amp; ugly thing to use, it can &lt;em&gt;actually&lt;/em&gt; be somewhat enjoyable (at times). It&amp;#8217;s really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn&amp;#8217;t about learning it any way, it&amp;#8217;s about making it better to use.&lt;/p&gt;
+    <summary type="html"></summary>
+    <content type="html">&lt;p&gt;Designers, don't fear the command line. The shell doesn't have to be a scary &amp;amp; ugly thing to use, it can &lt;em&gt;actually&lt;/em&gt; be somewhat enjoyable (at times). It's really not that bad, plus it gains you all kinds of street cred (or something). I really only started learning/using it because all the guys at Isotope11 made fun of me until I did. Now I can act pretentious and tell people to learn it too. This all really isn't about learning it any way, it's about making it better to use.&lt;/p&gt;
 
-&lt;p&gt;The default shell that ships with Linux and OSX is Bash. It looks a little something like this - &lt;img alt='Alt text' src='/images/zsh/bash.png' /&gt; Admittedly, my Bash profile is super plain and pretty difficult to use. I messed around with editing my .bashrc, adding aliases etc. and still just ended up disappointed. One day after bitching about my frequent git typos, I heard about something called &amp;#8216;Oh-my-zsh&amp;#8217; in a response to my rants. Again, some sort of great secret had eluded me.&lt;/p&gt;
+&lt;p&gt;The default shell that ships with Linux and OSX is Bash. It looks a little something like this -
+&lt;img src="/images/zsh/bash.png" alt="Alt text" /&gt;
+Admittedly, my Bash profile is super plain and pretty difficult to use. I messed around with editing my .bashrc, adding aliases etc. and still just ended up disappointed. One day after bitching about my frequent git typos, I heard about something called 'Oh-my-zsh' in a response to my rants. Again, some sort of great secret had eluded me. &lt;/p&gt;
 
-&lt;h3 id='ohmyzsh'&gt;Oh-my-ZSH&lt;/h3&gt;
+&lt;h3 id="oh-my-zsh"&gt;Oh-my-ZSH&lt;/h3&gt;
+&lt;p&gt;So if Bash is the shell that ships on Unix computers, what the hell is Z Shell? Basically it's an extended Bourne shell that borrows features from other shells (bash, ksh, tcsh). &lt;/p&gt;
 
-&lt;p&gt;So if Bash is the shell that ships on Unix computers, what the hell is Z Shell? Basically it&amp;#8217;s an extended Bourne shell that borrows features from other shells (bash, ksh, tcsh).&lt;/p&gt;
+&lt;h3 id="installing"&gt;Installing&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/robbyrussell/oh-my-zsh"&gt;Github Instructions&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id='installing'&gt;Installing&lt;/h3&gt;
+&lt;p&gt;I installed via curl:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href='https://github.com/robbyrussell/oh-my-zsh'&gt;Github Instructions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Set ZSH as your default shell&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chsh -s /bin/zsh&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;I installed via curl: &lt;pre&gt;&lt;code&gt;curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;Then you should be seeing something like this guy:
+&lt;img src="/images/zsh/zsh1.png" alt="Alt text" /&gt;
+The default theme isn't great looking. Not all super impressive yet, I know. It gets better though with the next step.&lt;/p&gt;
 
-&lt;p&gt;Set ZSH as your default shell &lt;pre&gt;&lt;code&gt;chsh -s /bin/zsh&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;Vim ~/.zshrc and scroll down to plugins &amp;amp; theme
+&lt;img src="/images/zsh/zsh2.png" alt="Alt text" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Then you should be seeing something like this guy: &lt;img alt='Alt text' src='/images/zsh/zsh1.png' /&gt; The default theme isn&amp;#8217;t great looking. Not all super impressive yet, I know. It gets better though with the next step.&lt;/p&gt;
+&lt;p&gt;This is really the cool part, all of these plugins make life really easy. For example, here is a list of all the git aliases the git plugin adds: 
+&lt;a href="http://jasonm23.github.com/oh-my-git-aliases.html"&gt;Git Plugin Cheatsheet&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Vim ~/.zshrc and scroll down to plugins &amp;amp; theme &lt;img alt='Alt text' src='/images/zsh/zsh2.png' /&gt;&lt;/p&gt;
+&lt;p&gt;There are also tons of themes that come packaged with this. 
+&lt;a href="https://github.com/robbyrussell/oh-my-zsh/wiki/themes"&gt;List of Themes&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is really the cool part, all of these plugins make life really easy. For example, here is a list of all the git aliases the git plugin adds: &lt;a href='http://jasonm23.github.com/oh-my-git-aliases.html'&gt;Git Plugin Cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Personally, I'm using gnzh and it looks like this: 
+&lt;img src="/images/zsh/zsh3.png" alt="Alt text" /&gt;
+That's a hell of a lot better than what I was rocking before, right? Shows me current working branch, gemset and also directory path. Also note me using the alias for 'git status' which is 'gst'. I also just loooove having an entire extra line to type on below. &lt;/p&gt;
 
-&lt;p&gt;There are also tons of themes that come packaged with this. &lt;a href='https://github.com/robbyrussell/oh-my-zsh/wiki/themes'&gt;List of Themes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Luckily, there IS more to it than just pretty colors. 
+- When you tab tab you get a list of possible completions that you can navigate with arrows
+- ZSH shares command history among sessions
+- Spell checking (big win for me)
+- Little indicator shows when there are changes that haven't been committed &lt;/p&gt;
 
-&lt;p&gt;Personally, I&amp;#8217;m using gnzh and it looks like this: &lt;img alt='Alt text' src='/images/zsh/zsh3.png' /&gt; That&amp;#8217;s a hell of a lot better than what I was rocking before, right? Shows me current working branch, gemset and also directory path. Also note me using the alias for &amp;#8216;git status&amp;#8217; which is &amp;#8216;gst&amp;#8217;. I also just loooove having an entire extra line to type on below.&lt;/p&gt;
-
-&lt;p&gt;Luckily, there IS more to it than just pretty colors.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When you tab tab you get a list of possible completions that you can navigate with arrows&lt;/li&gt;
-
-&lt;li&gt;ZSH shares command history among sessions&lt;/li&gt;
-
-&lt;li&gt;Spell checking (big win for me)&lt;/li&gt;
-
-&lt;li&gt;Little indicator shows when there are changes that haven&amp;#8217;t been committed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There&amp;#8217;s a lot more to it than this, but that&amp;#8217;s about the extent of my knowledge. Hell, i&amp;#8217;m just a designer.&lt;/p&gt;</content>
+&lt;p&gt;There's a lot more to it than this, but that's about the extent of my knowledge. Hell, i'm just a designer. &lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>Wrenching vs. Development</title>
@@ -68,36 +117,37 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Recently, again, I&amp;#8217;ve been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on &amp;#8216;Stealing like an Artist&amp;#8217;. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it&amp;#8217;s &lt;a href='http://www.austinkleon.com/steal/'&gt;right here&lt;/a&gt;, it&amp;#8217;s great)&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Recently, again, I&amp;#8217;ve been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on &amp;#8216;Stealing like an Artist&amp;#8217;. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it&amp;#8217;s &lt;a href='http://www.austinkleon.com/steal/'&gt;right here&lt;/a&gt;, it&amp;#8217;s great)&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Recently, again, I've been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on 'Stealing like an Artist'. After throughly enjoying his talk, I found that he wrote a book that...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Recently, again, I've been trying to read a bit more often. After attending UXWeek in San Fran a few months ago I heard Austin Kleon give a great talk on 'Stealing like an Artist'. After throughly enjoying his talk, I found that he wrote a book that shared a title with his talk. (it's &lt;a href="http://www.austinkleon.com/steal/"&gt;right here&lt;/a&gt;, it's great)&lt;/p&gt;
 
-&lt;p&gt;Anyhow, it&amp;#8217;s a nice and short read, but one of the parts that really stuck out to me was about how you shouldn&amp;#8217;t give up on hobbies and outlets that don&amp;#8217;t seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit &lt;em&gt;expensive&lt;/em&gt; and &lt;em&gt;taxing&lt;/em&gt; hobby. Naturally, there isn&amp;#8217;t a whole lot of connection between auto work and development, but it&amp;#8217;s a very rewarding release to &lt;em&gt;actually&lt;/em&gt; get out there and truly work with your hands.&lt;/p&gt;
+&lt;p&gt;Anyhow, it's a nice and short read, but one of the parts that really stuck out to me was about how you shouldn't give up on hobbies and outlets that don't seem to fit inline with your career. Personally, I grew up around cars and auto work and it evolved into an amazingly wonderful albeit &lt;em&gt;expensive&lt;/em&gt; and &lt;em&gt;taxing&lt;/em&gt; hobby. Naturally, there isn't a whole lot of connection between auto work and development, but it's a very rewarding release to &lt;em&gt;actually&lt;/em&gt; get out there and truly work with your hands.&lt;/p&gt;
 
-&lt;h3 id='1_if_you_dont_have_all_the_right_tools_to_start_youre_going_to_have_a_bad_time'&gt;1. If you don&amp;#8217;t have all the right tools to start, you&amp;#8217;re going to have a bad time.&lt;/h3&gt;
+&lt;h3 id="if-you-dont-have-all-the-right-tools-to-start-youre-going-to-have-a-bad-time"&gt;1. If you don't have all the right tools to start, you're going to have a bad time.&lt;/h3&gt;
 
-&lt;p&gt;It took me a really long time to learn this lesson in the garage. If you need an obscure specialty tool, you need to get that shit before you start. I&amp;#8217;ve tried making, modifying and hacking together more mechanical fixes than I care to admit. Does this sort of idea work? Sure, but you either spend way more time than necessary or you end up making the problem worse. Wrenches make good hammers sometimes, but if you need a hammer&amp;#8230; use one.&lt;/p&gt;
+&lt;p&gt;It took me a really long time to learn this lesson in the garage. If you need an obscure specialty tool, you need to get that shit before you start. I've tried making, modifying and hacking together more mechanical fixes than I care to admit. Does this sort of idea work? Sure, but you either spend way more time than necessary or you end up making the problem worse. Wrenches make good hammers sometimes, but if you need a hammer… use one. &lt;/p&gt;
 
-&lt;p&gt;In development, it&amp;#8217;s also so easy to end up using the wrong tools if you haven&amp;#8217;t decided what you need before you get in deep. Don&amp;#8217;t get me wrong though, project scopes change, things break and there are surprises around every corner. You need to be flexible, but that&amp;#8217;s no reason to not be prepared.&lt;/p&gt;
+&lt;p&gt;In development, it's also so easy to end up using the wrong tools if you haven't decided what you need before you get in deep. Don't get me wrong though, project scopes change, things break and there are surprises around every corner. You need to be flexible, but that's no reason to not be prepared.&lt;/p&gt;
 
-&lt;h3 id='2_dont_get_overly_emotional__take_your_time'&gt;2. Don&amp;#8217;t get overly emotional (&amp;amp; take your time).&lt;/h3&gt;
+&lt;h3 id="dont-get-overly-emotional--take-your-time"&gt;2. Don't get overly emotional (&amp;amp; take your time).&lt;/h3&gt;
 
-&lt;p&gt;Often times, things get worse as you get into an auto project. Garbage plastic clips break (damn you late model vehicles!), bolts snap and things get rusted. Rusty bolts can make your quick bolt-on a nightmare, but getting frustrated and applying torque to bolts without making sure wrenches &amp;amp; sockets are seated will make your day even worse. No one likes a rounded bolt.&lt;/p&gt;
+&lt;p&gt;Often times, things get worse as you get into an auto project. Garbage plastic clips break (damn you late model vehicles!), bolts snap and things get rusted. Rusty bolts can make your quick bolt-on a nightmare, but getting frustrated and applying torque to bolts without making sure wrenches &amp;amp; sockets are seated will make your day even worse. No one likes a rounded bolt. &lt;/p&gt;
 
-&lt;p&gt;Development can really suck sometimes. Two-line code changes turn into week long projects but getting upset and writing garbage code to get a project turned out isn&amp;#8217;t the right way to do it. You can&amp;#8217;t always know what you&amp;#8217;re getting into before you&amp;#8217;re there, so be patient. Take your time and get things done.&lt;/p&gt;
+&lt;p&gt;Development can really suck sometimes. Two-line code changes turn into week long projects but getting upset and writing garbage code to get a project turned out isn't the right way to do it. You can't always know what you're getting into before you're there, so be patient. Take your time and get things done.&lt;/p&gt;
 
-&lt;h3 id='3_keep_your_tools_clean'&gt;3. Keep your tools clean.&lt;/h3&gt;
+&lt;h3 id="keep-your-tools-clean"&gt;3. Keep your tools clean.&lt;/h3&gt;
 
 &lt;p&gt;Take my word for it. Clean your tools off as you use them. All it takes is one grease covered ball-joint fork to effectively infect all of your tools and make it impossible to touch anything in the future. Being lazy for a minute is going to lead to you accidentally getting grease all over your work clothes and/or interior (ask me how I know).&lt;/p&gt;
 
-&lt;p&gt;As you&amp;#8217;re slinging html/css, indent that shit. Try to keep your div-itis in check, DRY, yada yada. Seriously just keep it as clean as possible and it&amp;#8217;ll make your life easier as you continue (hopefully) to iterate on projects.&lt;/p&gt;
+&lt;p&gt;As you're slinging html/css, indent that shit. Try to keep your div-itis in check, DRY, yada yada. Seriously just keep it as clean as possible and it'll make your life easier as you continue (hopefully) to iterate on projects. &lt;/p&gt;
 
-&lt;h3 id='4_when_stuff_breaks_minimize_variables'&gt;4. When stuff breaks, minimize variables.&lt;/h3&gt;
+&lt;h3 id="when-stuff-breaks-minimize-variables"&gt;4. When stuff breaks, minimize variables.&lt;/h3&gt;
 
-&lt;p&gt;Things break, a lot. When something does go wrong try to stop thrashing and figure out what the actual problem is before trying to solve it. I run into this all the time with suspension noises seemingly. Most suspensions are perfectly simple, but dammit, there are always so many joints, bushings and squeaks.&lt;/p&gt;
+&lt;p&gt;Things break, a lot. When something does go wrong try to stop thrashing and figure out what the actual problem is before trying to solve it. I run into this all the time with suspension noises seemingly. Most suspensions are perfectly simple, but dammit, there are always so many joints, bushings and squeaks. &lt;/p&gt;
 
-&lt;p&gt;Whenever I hear a new noise, it&amp;#8217;s always tempting to tear into the suspension and start throwing new parts at it. Never efficient or a smart thing to do. Whenever you actually can narrow it down to a specific area, try to limit the amount of changes so you can measure the difference effectively. Change a bunch of stuff at once and you&amp;#8217;ll never know what fixed the problem or actually understand what was even wrong in the first place.&lt;/p&gt;
+&lt;p&gt;Whenever I hear a new noise, it's always tempting to tear into the suspension and start throwing new parts at it. Never efficient or a smart thing to do. Whenever you actually can narrow it down to a specific area, try to limit the amount of changes so you can measure the difference effectively. Change a bunch of stuff at once and you'll never know what fixed the problem or actually understand what was even wrong in the first place. &lt;/p&gt;
 
-&lt;p&gt;Hobbies can &amp;amp; will improve your work if you let them.&lt;/p&gt;</content>
+&lt;p&gt;Hobbies can &amp;amp; will improve your work if you let them. &lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>About the Blog</title>
@@ -108,15 +158,16 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Well, seems that I&amp;#8217;ve finally decided to add a little blog to the site. Noting that the current time is indeed 1:48 a.m. on a Saturday night (nerd alert, anyone?) the &amp;#8216;example article&amp;#8217; that ships with the Middleman-blog setup isn&amp;#8217;t really cutting it.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Well, seems that I&amp;#8217;ve finally decided to add a little blog to the site. Noting that the current time is indeed 1:48 a.m. on a Saturday night (nerd alert, anyone?) the &amp;#8216;example article&amp;#8217; that ships with the Middleman-blog setup isn&amp;#8217;t really cutting it.&lt;/p&gt;
+    <summary type="html"></summary>
+    <content type="html">&lt;p&gt;Well, seems that I've finally decided to add a little blog to the site. Noting that the current time is indeed 1:48 a.m. on a Saturday night (nerd alert, anyone?) the 'example article' that ships with the Middleman-blog setup isn't really cutting it. &lt;/p&gt;
 
-&lt;p&gt;That being said I figured i&amp;#8217;d write about the tech used to build &amp;amp; launch the little site. The framework is Middleman 3.0 with the associated middleman-blog extension. It&amp;#8217;s simply wonderful. It ships with compass &amp;amp; haml already rocking on it which makes me immensely happy. If you haven&amp;#8217;t working with either before, do yourself a huge favor and just do it. I primarily work in rails environments these days, so if you don&amp;#8217;t, you&amp;#8217;re screwed or something (maybe?).&lt;/p&gt;
+&lt;p&gt;That being said I figured i'd write about the tech used to build &amp;amp; launch the little site. The framework is Middleman 3.0 with the associated middleman-blog extension. It's simply wonderful. It ships with compass &amp;amp; haml already rocking on it which makes me immensely happy. If you haven't working with either before, do yourself a huge favor and just do it. I primarily work in rails environments these days, so if you don't, you're screwed or something (maybe?).&lt;/p&gt;
 
-&lt;p&gt;Anyways, Middleman is wonderful for generating static sites while still allowing you to use the dev tools that you&amp;#8217;re used to utilizing. It&amp;#8217;s super flexible and allows you to pretty much do whatever you want.&lt;/p&gt;
+&lt;p&gt;Anyways, Middleman is wonderful for generating static sites while still allowing you to use the dev tools that you're used to utilizing. It's super flexible and allows you to pretty much do whatever you want. &lt;/p&gt;
 
-&lt;p&gt;The site is currently on a free heroku server (Thanks Heroku, I love you and I promise I&amp;#8217;ll pay soon). Heroku is another fantastic tool to try out and use. Basically, jump on heroku.com, make a login and once you&amp;#8217;re in your local project folder, enter your credentials - &amp;#8216;heroku login&amp;#8217;, create a unique heroku project &amp;#8216;heroku create&amp;#8217;, and then BAM &amp;#8216;git push heroku master&amp;#8217; and your code is now &amp;#8216;live&amp;#8217;. I use the term live loosely, as it&amp;#8217;ll be deployed to &amp;#8216;blazing-dragon-flower-face-9872&amp;#8217; or something similar.&lt;/p&gt;
+&lt;p&gt;The site is currently on a free heroku server (Thanks Heroku, I love you and I promise I'll pay soon). Heroku is another fantastic tool to try out and use. Basically, jump on heroku.com, make a login and once you're in your local project folder, enter your credentials - 'heroku login', create a unique heroku project 'heroku create', and then BAM 'git push heroku master' and your code is now 'live'. I use the term live loosely, as it'll be deployed to 'blazing-dragon-flower-face-9872' or something similar. &lt;/p&gt;
 
-&lt;p&gt;As you can see at the bottom of the blog post, I dropped in Disqus for comments (also insanely easy to integrate).&lt;/p&gt;</content>
+&lt;p&gt;As you can see at the bottom of the blog post, I dropped in Disqus for comments (also insanely easy to integrate). &lt;/p&gt;
+</content>
   </entry>
 </feed>
