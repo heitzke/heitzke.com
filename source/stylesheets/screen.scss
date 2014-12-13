@@ -46,7 +46,7 @@ main {
   padding: 10% 0 85px 0;
 }
 
-.main-callout, .portrait {
+.main-callout h1, .main-callout h2, .portrait {
   -webkit-animation-name: fadeInDown;
   -moz-animation-name: fadeInDown;
   -o-animation-name: fadeInDown;
@@ -76,8 +76,11 @@ h2 {
 }
 
 .main-callout {
-  -webkit-animation-delay: .35s;
-  animation-delay: .35s; 
+  h1, h2 {
+    opacity: 0;
+    -webkit-animation-delay: .35s;
+    animation-delay: .35s; 
+  }
 }
 
 img, embed, object, video {
