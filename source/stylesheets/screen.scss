@@ -47,15 +47,15 @@ main {
 }
 
 .main-callout h1, .main-callout h2, .portrait {
-  -webkit-animation-name: fadeInDown;
-  -moz-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -ms-animation-duration: 1.5s;
-  -o-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -moz-animation: fadeInDown 1.5s forwards;
+  -webkit-animation: fadeInDown 1.5s forwards;
+  animation: fadeInDown 1.5s forwards;
+}
+
+.main-callout h1, .main-callout h2 {
+  opacity: 0;
+  -webkit-animation-delay: .35s;
+  animation-delay: .35s; 
 }
 
 h1 {
@@ -73,14 +73,6 @@ h2 {
   font-weight: 100;
   font-size: .85em;
   margin: 0 0 20px 0;
-}
-
-.main-callout {
-  h1, h2 {
-    opacity: 0;
-    -webkit-animation-delay: .35s;
-    animation-delay: .35s; 
-  }
 }
 
 img, embed, object, video {
